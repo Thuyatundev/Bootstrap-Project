@@ -1,0 +1,120 @@
+#navbar {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#navbar:hover {
+    opacity: 0.6;
+}
+
+#navbar ul li a {
+    padding-left: 15px;
+    color: #fff;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(228, 25, 76);
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url("img/home.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.header-home {
+    padding: 20px;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.para-home {
+    color: #fff;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+    border-radius: 90px;
+}
+
+.btn:hover {
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.img-fluid {
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.head-about {
+    margin-right: 30px;
+    padding-top: 50px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.rounded-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.user {
+    text-align: center;
+}
+
+.user {
+    border-right: 2px solid red;
+}
+
+.footer {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    background-color: rgba(113, 117, 121, 0.986);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.username {
+    padding-bottom: 30px;
+}
+
+h2 {
+    text-shadow: 2px 2px 2px gray;
+}
+
+#Training {
+    background-color: rgba(113, 117, 121, 0.986);
+}
